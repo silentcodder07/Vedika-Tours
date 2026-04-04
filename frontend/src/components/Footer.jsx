@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone } from 'lucide-react';
 import { mockData } from '../mock';
 
 const Footer = () => {
@@ -72,12 +72,6 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-orange-400 mr-2 flex-shrink-0" />
                 <a href={`tel:${mockData.company.phone}`} className="text-gray-300 hover:text-orange-400 transition-colors">
                   {mockData.company.phone}
-                </a>
-              </li>
-              <li className="flex items-center">
-                <Mail className="w-5 h-5 text-orange-400 mr-2 flex-shrink-0" />
-                <a href={`mailto:${mockData.company.email}`} className="text-gray-300 hover:text-orange-400 transition-colors">
-                  {mockData.company.email}
                 </a>
               </li>
             </ul>

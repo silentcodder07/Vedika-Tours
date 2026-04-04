@@ -8,7 +8,6 @@ import Services from "./components/Services";
 import Tours from "./components/Tours";
 import Fleet from "./components/Fleet";
 import Testimonials from "./components/Testimonials";
-import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import CTASection from "./components/CTASection";
@@ -25,7 +24,6 @@ function App() {
       <Tours />
       <Fleet />
       <Testimonials />
-      <Gallery />
       <About />
       <Contact />
       <CTASection />

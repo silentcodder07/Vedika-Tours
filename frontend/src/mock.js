@@ -6,12 +6,12 @@ export const mockData = {
     nameMarathi: "वेदिका टुर्स आणि ट्रॅव्हल्स",
     tagline: "Safe & Comfortable Travel Across Maharashtra",
     phone: "09773777750",
-    email: "info@vedikatours.com",
     address: "Panvel, Maharashtra, India",
     rating: 4.9,
     totalReviews: 234,
     totalTrips: "200+",
-    whatsappNumber: "919773777750"
+    whatsappNumber: "919773777750",
+    logo: "https://customer-assets.emergentagent.com/job_panvel-travel/artifacts/5lwt6del_WhatsApp%20Image%202026-04-04%20at%2011.53.46%20%281%29.jpeg"
   },
 
   highlights: [
@@ -74,7 +74,6 @@ export const mockData = {
       title: "Maharashtra Dev Darshan Tour",
       destinations: "Jejuri | Pandharpur | Tuljapur",
       duration: "3-5 Days",
-      price: "₹12,999",
       image: "https://images.unsplash.com/photo-1609131071566-8511d6bca0f5",
       description: "Visit the most sacred temples of Maharashtra"
     },
@@ -83,7 +82,6 @@ export const mockData = {
       title: "Ashtavinayak Darshan",
       destinations: "8 Ganesh Temples | Complete Circuit",
       duration: "2-3 Days",
-      price: "₹9,999",
       image: "https://images.unsplash.com/photo-1631774933370-d596a344e851",
       description: "Complete Ashtavinayak pilgrimage tour"
     },
@@ -92,7 +90,6 @@ export const mockData = {
       title: "Konkan Coastal Tour",
       destinations: "Beaches | Forts | Scenic Routes",
       duration: "4-6 Days",
-      price: "₹15,999",
       image: "https://images.unsplash.com/photo-1631774934803-554afa7371c9",
       description: "Explore the beautiful Konkan coastline"
     },
@@ -101,7 +98,6 @@ export const mockData = {
       title: "Shirdi Shani Shingnapur",
       destinations: "Shirdi | Shani Shingnapur | Nashik",
       duration: "2-3 Days",
-      price: "₹8,999",
       image: "https://images.unsplash.com/photo-1637044615394-58a453c61980",
       description: "Popular religious tour package"
     }
@@ -110,34 +106,34 @@ export const mockData = {
   fleet: [
     {
       id: 1,
-      name: "Swift",
-      type: "Hatchback",
-      seating: "4 Seater",
-      image: "https://images.unsplash.com/photo-1774979160630-a21a5b6f9553",
-      description: "Perfect for small families"
-    },
-    {
-      id: 2,
-      name: "Dzire",
+      name: "Swift Dzire",
       type: "Sedan",
       seating: "4 Seater",
-      image: "https://images.unsplash.com/photo-1630165356623-266076eaceb6",
+      image: "https://images.unsplash.com/photo-1708344595439-0e24b5db9058",
       description: "Comfortable sedan for city travel"
     },
     {
+      id: 2,
+      name: "Ertiga",
+      type: "MPV",
+      seating: "6-7 Seater",
+      image: "https://images.unsplash.com/photo-1767949374180-e5895daa1990",
+      description: "Perfect for family trips"
+    },
+    {
       id: 3,
-      name: "Innova",
+      name: "Innova Crysta",
       type: "SUV",
       seating: "7 Seater",
-      image: "https://images.unsplash.com/photo-1615887110697-0819ec23465f",
-      description: "Spacious for family trips"
+      image: "https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d",
+      description: "Spacious and luxurious for family trips"
     },
     {
       id: 4,
       name: "Tempo Traveller",
       type: "Mini Bus",
       seating: "12-17 Seater",
-      image: "https://images.unsplash.com/photo-1688054005456-466170816196",
+      image: "https://images.unsplash.com/photo-1647833893093-055ac18b8971",
       description: "Ideal for group travel"
     }
   ],

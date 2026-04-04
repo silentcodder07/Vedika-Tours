@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, IndianRupee, ArrowRight } from 'lucide-react';
+import { MapPin, Clock, ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 import { mockData } from '../mock';
 
@@ -38,9 +38,6 @@ const Tours = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                <div className="absolute top-4 right-4 bg-orange-600 text-white px-4 py-2 rounded-full font-bold">
-                  {tour.price}
-                </div>
               </div>
 
               {/* Tour Info */}

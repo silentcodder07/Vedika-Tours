@@ -41,9 +41,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-orange-600">
-              {mockData.company.name}
-            </div>
+            <img 
+              src={mockData.company.logo} 
+              alt={mockData.company.name}
+              className="h-14 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
