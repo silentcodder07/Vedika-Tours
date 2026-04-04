@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 pb-24 md:pb-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
@@ -75,13 +75,13 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400">
+          <p className="text-gray-400 text-sm md:text-base">
             © {new Date().getFullYear()} {mockData.company.name}. All rights reserved.
           </p>
-          <p className="text-gray-500 text-sm mt-3">
+          <p className="text-gray-500 text-xs md:text-sm mt-3 px-4">
             Design and Develop by{' '}
             <a 
-              href="https://wa.me/917020875431?text=I%20need%20to%20build%20website%20like%20this"
+              href="https://wa.me/917020875431?text=Hi%2C%20I%20saw%20your%20work%20on%20Vedika%20Tours%20website.%20Can%20you%20build%20a%20similar%20website%20for%20my%20business%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-400 hover:text-orange-300 font-semibold transition-colors"
