@@ -1,0 +1,237 @@
+// Mock data for Vedika Tours & Travels
+
+export const mockData = {
+  company: {
+    name: "Vedika Tours & Travels",
+    nameMarathi: "वेदिका टुर्स आणि ट्रॅव्हल्स",
+    tagline: "Safe & Comfortable Travel Across Maharashtra",
+    phone: "09773777750",
+    email: "info@vedikatours.com",
+    address: "Panvel, Maharashtra, India",
+    rating: 4.9,
+    totalReviews: 234,
+    totalTrips: "200+",
+    whatsappNumber: "919773777750"
+  },
+
+  highlights: [
+    {
+      id: 1,
+      icon: "star",
+      title: "4.9 Rating",
+      description: "Trusted by customers"
+    },
+    {
+      id: 2,
+      icon: "car",
+      title: "200+ Trips",
+      description: "Successfully completed"
+    },
+    {
+      id: 3,
+      icon: "map-pin",
+      title: "Panvel Based",
+      description: "Local expertise"
+    },
+    {
+      id: 4,
+      icon: "clock",
+      title: "24x7 Service",
+      description: "Always available"
+    }
+  ],
+
+  services: [
+    {
+      id: 1,
+      icon: "car",
+      title: "Car Rental",
+      description: "Well-maintained vehicles for your journey with experienced drivers"
+    },
+    {
+      id: 2,
+      icon: "map",
+      title: "Tour Packages",
+      description: "Customized Maharashtra tour packages for family and groups"
+    },
+    {
+      id: 3,
+      icon: "plane",
+      title: "Airport Pickup & Drop",
+      description: "Reliable airport transfer services 24x7"
+    },
+    {
+      id: 4,
+      icon: "briefcase",
+      title: "Corporate Travel",
+      description: "Professional travel solutions for business needs"
+    }
+  ],
+
+  tours: [
+    {
+      id: 1,
+      title: "Maharashtra Dev Darshan Tour",
+      destinations: "Jejuri | Pandharpur | Tuljapur",
+      duration: "3-5 Days",
+      price: "₹12,999",
+      image: "https://images.unsplash.com/photo-1609131071566-8511d6bca0f5",
+      description: "Visit the most sacred temples of Maharashtra"
+    },
+    {
+      id: 2,
+      title: "Ashtavinayak Darshan",
+      destinations: "8 Ganesh Temples | Complete Circuit",
+      duration: "2-3 Days",
+      price: "₹9,999",
+      image: "https://images.unsplash.com/photo-1631774933370-d596a344e851",
+      description: "Complete Ashtavinayak pilgrimage tour"
+    },
+    {
+      id: 3,
+      title: "Konkan Coastal Tour",
+      destinations: "Beaches | Forts | Scenic Routes",
+      duration: "4-6 Days",
+      price: "₹15,999",
+      image: "https://images.unsplash.com/photo-1631774934803-554afa7371c9",
+      description: "Explore the beautiful Konkan coastline"
+    },
+    {
+      id: 4,
+      title: "Shirdi Shani Shingnapur",
+      destinations: "Shirdi | Shani Shingnapur | Nashik",
+      duration: "2-3 Days",
+      price: "₹8,999",
+      image: "https://images.unsplash.com/photo-1637044615394-58a453c61980",
+      description: "Popular religious tour package"
+    }
+  ],
+
+  fleet: [
+    {
+      id: 1,
+      name: "Swift",
+      type: "Hatchback",
+      seating: "4 Seater",
+      image: "https://images.unsplash.com/photo-1774979160630-a21a5b6f9553",
+      description: "Perfect for small families"
+    },
+    {
+      id: 2,
+      name: "Dzire",
+      type: "Sedan",
+      seating: "4 Seater",
+      image: "https://images.unsplash.com/photo-1630165356623-266076eaceb6",
+      description: "Comfortable sedan for city travel"
+    },
+    {
+      id: 3,
+      name: "Innova",
+      type: "SUV",
+      seating: "7 Seater",
+      image: "https://images.unsplash.com/photo-1615887110697-0819ec23465f",
+      description: "Spacious for family trips"
+    },
+    {
+      id: 4,
+      name: "Tempo Traveller",
+      type: "Mini Bus",
+      seating: "12-17 Seater",
+      image: "https://images.unsplash.com/photo-1688054005456-466170816196",
+      description: "Ideal for group travel"
+    }
+  ],
+
+  testimonials: [
+    {
+      id: 1,
+      name: "Rajesh Patil",
+      rating: 5,
+      text: "Very nice experience service good conversation. Driver was very polite and maintained the car well.",
+      date: "2 weeks ago"
+    },
+    {
+      id: 2,
+      name: "Priya Sharma",
+      rating: 5,
+      text: "Driver was polite and safe. Excellent service throughout the journey. Highly recommended!",
+      date: "1 month ago"
+    },
+    {
+      id: 3,
+      name: "Amit Kumar",
+      rating: 5,
+      text: "Excellent coordination from booking to drop. Very professional and punctual service.",
+      date: "3 weeks ago"
+    },
+    {
+      id: 4,
+      name: "Sneha Desai",
+      rating: 5,
+      text: "Best travel experience! Clean cars, professional drivers, and great customer service.",
+      date: "2 months ago"
+    },
+    {
+      id: 5,
+      name: "Vikram Joshi",
+      rating: 5,
+      text: "Took Maharashtra Dev Darshan package. Everything was well organized. Thank you Vedika Tours!",
+      date: "1 month ago"
+    }
+  ],
+
+  gallery: [
+    {
+      id: 1,
+      image: "https://images.unsplash.com/photo-1468818438311-4bab781ab9b8",
+      alt: "Happy travel experience"
+    },
+    {
+      id: 2,
+      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800",
+      alt: "Road trip adventure"
+    },
+    {
+      id: 3,
+      image: "https://images.unsplash.com/photo-1494783367193-149034c05e8f",
+      alt: "Scenic destinations"
+    },
+    {
+      id: 4,
+      image: "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9",
+      alt: "Family travel"
+    },
+    {
+      id: 5,
+      image: "https://images.unsplash.com/photo-1518658761661-a3c568ee7b64",
+      alt: "Joyful experiences"
+    },
+    {
+      id: 6,
+      image: "https://images.unsplash.com/photo-1542596594-649edbc13630",
+      alt: "Travel happiness"
+    },
+    {
+      id: 7,
+      image: "https://images.unsplash.com/photo-1764426382316-14d5c2fd25b7",
+      alt: "Temple visit"
+    },
+    {
+      id: 8,
+      image: "https://images.unsplash.com/photo-1719465236914-71562b2c59dd",
+      alt: "Tour destination"
+    }
+  ],
+
+  about: {
+    title: "About Vedika Tours & Travels",
+    description: "Vedika Tours & Travels is a trusted travel service based in Panvel, Maharashtra. We provide safe, reliable, and affordable travel experiences across Maharashtra. As a women-owned business, we are committed to delivering exceptional customer satisfaction and making your journey memorable.",
+    highlights: [
+      "Experienced and professional drivers",
+      "Well-maintained fleet of vehicles",
+      "24x7 customer support",
+      "Customized tour packages",
+      "Affordable and transparent pricing"
+    ]
+  }
+};
