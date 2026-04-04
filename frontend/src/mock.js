@@ -133,7 +133,7 @@ export const mockData = {
       name: "Tempo Traveller",
       type: "Mini Bus",
       seating: "12-17 Seater",
-      image: "https://images.unsplash.com/photo-1647833893093-055ac18b8971",
+      image: "https://customer-assets.emergentagent.com/job_panvel-travel/artifacts/jgivmkig_tempo.jpeg",
       description: "Ideal for group travel"
     }
   ],

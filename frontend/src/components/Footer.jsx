@@ -78,6 +78,17 @@ const Footer = () => {
           <p className="text-gray-400">
             © {new Date().getFullYear()} {mockData.company.name}. All rights reserved.
           </p>
+          <p className="text-gray-500 text-sm mt-3">
+            Design and Develop by{' '}
+            <a 
+              href="https://wa.me/917020875431?text=I%20need%20to%20build%20website%20like%20this"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-400 hover:text-orange-300 font-semibold transition-colors"
+            >
+              Silent Codder
+            </a>
+          </p>
         </div>
       </div>
     </footer>
