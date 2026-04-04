@@ -52,11 +52,6 @@ const Footer = () => {
                   Fleet
                 </button>
               </li>
-              <li>
-                <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-orange-400 transition-colors">
-                  Contact
-                </button>
-              </li>
             </ul>
           </div>
 

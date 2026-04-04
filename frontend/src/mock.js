@@ -109,7 +109,7 @@ export const mockData = {
       name: "Swift Dzire",
       type: "Sedan",
       seating: "4 Seater",
-      image: "https://images.unsplash.com/photo-1708344595439-0e24b5db9058",
+      image: "https://customer-assets.emergentagent.com/job_panvel-travel/artifacts/9apj97mz_SwiftDzire.jpeg",
       description: "Comfortable sedan for city travel"
     },
     {
@@ -117,7 +117,7 @@ export const mockData = {
       name: "Ertiga",
       type: "MPV",
       seating: "6-7 Seater",
-      image: "https://images.unsplash.com/photo-1767949374180-e5895daa1990",
+      image: "https://customer-assets.emergentagent.com/job_panvel-travel/artifacts/86yf1r45_Ertiga.jpeg",
       description: "Perfect for family trips"
     },
     {
@@ -125,7 +125,7 @@ export const mockData = {
       name: "Innova Crysta",
       type: "SUV",
       seating: "7 Seater",
-      image: "https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d",
+      image: "https://customer-assets.emergentagent.com/job_panvel-travel/artifacts/kn2rjj02_Innova.jpeg",
       description: "Spacious and luxurious for family trips"
     },
     {

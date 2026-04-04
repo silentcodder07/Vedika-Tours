@@ -65,9 +65,6 @@ const Header = () => {
             <button onClick={() => scrollToSection('reviews')} className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
               Reviews
             </button>
-            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
-              Contact
-            </button>
           </nav>
 
           {/* CTA Buttons */}
@@ -116,9 +113,6 @@ const Header = () => {
               </button>
               <button onClick={() => scrollToSection('reviews')} className="text-gray-700 hover:text-orange-600 font-medium text-left">
                 Reviews
-              </button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-orange-600 font-medium text-left">
-                Contact
               </button>
               <div className="flex flex-col space-y-2 pt-4">
                 <Button onClick={handleCall} variant="outline" className="border-orange-600 text-orange-600 w-full">

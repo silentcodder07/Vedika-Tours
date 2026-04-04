@@ -9,7 +9,6 @@ import Tours from "./components/Tours";
 import Fleet from "./components/Fleet";
 import Testimonials from "./components/Testimonials";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
 import MobileFloatingCTA from "./components/MobileFloatingCTA";
@@ -25,7 +24,6 @@ function App() {
       <Fleet />
       <Testimonials />
       <About />
-      <Contact />
       <CTASection />
       <Footer />
       <MobileFloatingCTA />
