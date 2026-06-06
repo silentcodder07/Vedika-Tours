@@ -74,7 +74,7 @@ export const mockData = {
       title: "Maharashtra Dev Darshan Tour",
       destinations: "Jejuri | Pandharpur | Tuljapur",
       duration: "3-5 Days",
-      image: "https://images.unsplash.com/photo-1609131071566-8511d6bca0f5",
+      image: "/images/mh_tour.jpeg",
       description: "Visit the most sacred temples of Maharashtra"
     },
     {
@@ -82,7 +82,7 @@ export const mockData = {
       title: "Ashtavinayak Darshan",
       destinations: "8 Ganesh Temples | Complete Circuit",
       duration: "2-3 Days",
-      image: "https://images.unsplash.com/photo-1631774933370-d596a344e851",
+      image: "/images/ganapati_tour.jpeg",
       description: "Complete Ashtavinayak pilgrimage tour"
     },
     {
@@ -90,7 +90,7 @@ export const mockData = {
       title: "Konkan Coastal Tour",
       destinations: "Beaches | Forts | Scenic Routes",
       duration: "4-6 Days",
-      image: "https://images.unsplash.com/photo-1631774934803-554afa7371c9",
+      image: "/images/maha_tour.jpeg",
       description: "Explore the beautiful Konkan coastline"
     },
     {
@@ -98,7 +98,7 @@ export const mockData = {
       title: "Shirdi Shani Shingnapur",
       destinations: "Shirdi | Shani Shingnapur | Nashik",
       duration: "2-3 Days",
-      image: "https://images.unsplash.com/photo-1637044615394-58a453c61980",
+      image: "/images/sai_tour.jpeg",
       description: "Popular religious tour package"
     }
   ],
