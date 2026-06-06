@@ -90,7 +90,7 @@ export const mockData = {
       title: "Konkan Coastal Tour",
       destinations: "Beaches | Forts | Scenic Routes",
       duration: "4-6 Days",
-      image: "/images/maha_tour.jpeg",
+      image: "/images/kokan_tour.jpeg",
       description: "Explore the beautiful Konkan coastline"
     },
     {
